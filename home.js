@@ -207,7 +207,7 @@ gsap.from(menu.children,{
 
 const knowMore = document.getElementById('know');
 knowMore.addEventListener('click', () =>{
-    const url = "/know.html";
+    const url = "/projects.html";
     window.location.href = url;
 });
 
