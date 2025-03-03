@@ -365,6 +365,10 @@ footer {
     margin-top: 5%;
 }
 
+.star{
+    /* display: none; */
+}
+
 
 
 
@@ -486,6 +490,10 @@ footer {
     .img-card {
         max-width: 100%; 
         height: 200vh; 
+    }
+
+    .star{
+        display: none;
     }
 
     .card:hover {
