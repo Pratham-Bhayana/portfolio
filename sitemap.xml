@@ -4,24 +4,37 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
+<!-- Created with Free Online Sitemap Generator www.xml-sitemaps.com and modified for optimization -->
 
 <url>
   <loc>https://prathambhayana.com/</loc>
-  <lastmod>2025-03-08T16:56:59+00:00</lastmod>
+  <lastmod>2025-03-22T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://prathambhayana.com/contact</loc>
-  <lastmod>2025-03-08T16:56:59+00:00</lastmod>
+  <lastmod>2025-03-22T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://prathambhayana.com/projects</loc>
-  <lastmod>2025-03-08T16:56:59+00:00</lastmod>
+  <lastmod>2025-03-22T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>https://prathambhayana.com/about</loc>
+  <lastmod>2025-03-22T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
-
+<url>
+  <loc>https://prathambhayana.com/terms</loc>
+  <lastmod>2025-03-22T00:00:00+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.50</priority>
+</url>
 
 </urlset>

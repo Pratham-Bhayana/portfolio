@@ -3,34 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
-    <title>Home - PB </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    
+    <!-- Optimized Meta Tags for SEO -->
     <title>Pratham Bhayana - Frontend Developer & Web Designer</title>
-<meta name="description" content="Portfolio of Pratham Bhayana - A frontend developer specializing in HTML, CSS, JavaScript, and modern web development.">
+    <meta name="description" content="Pratham Bhayana is a skilled Frontend Developer specializing in HTML, CSS, JavaScript, and modern web design. Explore my portfolio for responsive, user-friendly web solutions.">
+    <meta name="keywords" content="Pratham Bhayana, Frontend Developer, Web Designer, HTML, CSS, JavaScript, Responsive Design, Web Development, Portfolio">
+    <meta name="author" content="Pratham Bhayana">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Canonical URL to Avoid Duplicate Content -->
+    <link rel="canonical" href="https://prathambhayana.com/">
 
+    <!-- Open Graph Tags for Social Media -->
+    <meta property="og:title" content="Pratham Bhayana - Frontend Developer & Web Designer">
+    <meta property="og:description" content="Portfolio of Pratham Bhayana, a Frontend Developer specializing in creating intuitive and engaging web experiences using HTML, CSS, and JavaScript.">
+    <meta property="og:image" content="https://prathambhayana.com/img/pratham-bhayana-profile.jpg">
+    <meta property="og:url" content="https://prathambhayana.com/">
+    <meta property="og:type" content="website">
+
+    <!-- Twitter Card Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Pratham Bhayana - Frontend Developer & Web Designer">
+    <meta name="twitter:description" content="Portfolio of Pratham Bhayana, a Frontend Developer specializing in creating intuitive and engaging web experiences using HTML, CSS, and JavaScript.">
+    <meta name="twitter:image" content="https://prathambhayana.com/img/pratham-bhayana-profile.jpg">
+
+    <!-- Sitemap Reference -->
+    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
+
+    <!-- External Styles and Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="home.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
 
+    <!-- Favicon for Branding -->
+    <link rel="icon" type="image/png" href="./img/favicon.png">
 </head>
 <body>
+    <!-- Schema Markup for Person -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Pratham Bhayana",
+        "jobTitle": "Frontend Developer",
+        "description": "Pratham Bhayana is a Frontend Developer specializing in HTML, CSS, JavaScript, and modern web design, delivering responsive and user-friendly digital solutions.",
+        "url": "https://prathambhayana.com/",
+        "sameAs": [
+            "https://www.linkedin.com/in/pratham-bhayana-210629325/",
+            "https://github.com/Pratham-Bhayana/",
+            "https://www.instagram.com/pratham_bhayana/",
+            "https://www.facebook.com/share/V37ExzicGT2sj7Ji/?mibextid=qi2Omg"
+        ],
+        "address": {
+            "@type": "PostalAddress",
+            "addressLocality": "New Delhi",
+            "addressCountry": "India"
+        }
+    }
+    </script>
+
     <header>
-        <nav class="nav-bar">
+        <nav class="nav-bar" aria-label="Main navigation">
             <div class="logo">
-                <img class="star" src="./img/star.png" alt="">
+                <img class="star" src="./img/star.png" alt="Pratham Bhayana Logo Star" aria-hidden="true">
                 <div>Pratham Bhayana</div>
             </div>
             
             <ul class="menu-items">
-                <li><a href="#">Home</a></li>
-                
-                <li><a href="https://prathambhayanablog.netlify.app/">Blog</a></li>
-                <li><a href="contact.html">contact</a></li>
+                <li><a href="/" aria-current="page">Home</a></li>
+                <li><a href="https://prathambhayanablog.netlify.app/" rel="noopener noreferrer">Blog</a></li>
+                <li><a href="/contact.html">Contact</a></li>
             </ul>
-
-
         </nav>
     </header>  
     
@@ -39,27 +85,23 @@
             <div class="left-side">
                 <div class="title">
                     <h1>Pratham Bhayana
-                         <img src="./img/star.png" alt="" class="star">
-                         
+                        <img src="./img/star.png" alt="Star Icon" class="star" aria-hidden="true">
+                    </h1>
                 </div>
-
                 <p class="p">
-                     Front-end developer with a passion for creating intuitive and engaging user experiences. Specializing in modern web design, clean code, and responsive layouts. Delivering seamless and visually appealing digital solutions.
+                    Front-end developer with a passion for creating intuitive and engaging user experiences. Specializing in modern web design, clean code, and responsive layouts. Delivering seamless and visually appealing digital solutions.
                 </p>
-
                 <button id="know">Projects</button>
-
             </div>
             <div class="right-side pyramid">
-                <img src="./img/gold.png" usemap="#image-map" alt="Social Media Icons" class="gold glow image">
-                
+                <img src="./img/gold.png" usemap="#image-map" alt="Social Media Links Pyramid" class="gold glow image">
                 <!-- Defining the image map -->
-                <map name="image-map">
-                    <area target="_blank" alt="Point 1" title="Point 1" href="https://www.facebook.com/share/V37ExzicGT2sj7Ji/?mibextid=qi2Omg" coords="200,256,17" shape="circle">
-                    <area target="_blank" alt="Point 2" title="Point 2" href="https://www.instagram.com/pratham_bhayana/" coords="233,191,20" shape="circle">
-                    <area target="_blank" alt="Point 3" title="Point 3" href="#" coords="277,118,20" shape="circle">
-                    <area target="_blank" alt="Point 4" title="Point 4" href="https://github.com/Pratham-Bhayana/Pratham-Bhayana/" coords="336,187,18" shape="circle">
-                    <area target="_blank" alt="Point 5" title="Point 5" href="https://www.linkedin.com/in/pratham-bhayana-210629325/" coords="373,236,18" shape="circle">
+                <map name="image-map" id="image-map">
+                    <area target="_blank" alt="Facebook Profile" title="Visit Pratham Bhayana on Facebook" href="https://www.facebook.com/share/V37ExzicGT2sj7Ji/?mibextid=qi2Omg" coords="200,256,17" shape="circle">
+                    <area target="_blank" alt="Instagram Profile" title="Visit Pratham Bhayana on Instagram" href="https://www.instagram.com/pratham_bhayana/" coords="233,191,20" shape="circle">
+                    <area target="_blank" alt="Placeholder Link" title="Placeholder Link" href="#" coords="277,118,20" shape="circle">
+                    <area target="_blank" alt="GitHub Profile" title="Visit Pratham Bhayana on GitHub" href="https://github.com/Pratham-Bhayana/Pratham-Bhayana/" coords="336,187,18" shape="circle">
+                    <area target="_blank" alt="LinkedIn Profile" title="Visit Pratham Bhayana on LinkedIn" href="https://www.linkedin.com/in/pratham-bhayana-210629325/" coords="373,236,18" shape="circle">
                 </map>
             </div>
         </div>
@@ -68,25 +110,20 @@
     <section>
         <div class="container">
             <div class="left-side hand">
-                <img class="gold-image" src="./img/gold2.png" alt="">
+                <img class="gold-image" src="./img/gold2.png" alt="Creative Frontend Development Illustration" loading="lazy">
             </div>
             <div class="right-side-sec2">
-                
                 <div class="title">
                     <h1>Innovative Front-End Development <br> </h1>
                     <h2> with a Creative Touch</h2>
                 </div>
-
                 <p class="p">
                     Hi, I'm Pratham Bhayana, a front-end developer with a flair for blending creativity with technology. I specialize in crafting visually stunning and highly interactive websites that not only look great but also provide seamless user experiences. My approach combines modern design principles with innovative solutions to create unique and engaging digital experiences. Whether it’s through dynamic animations, responsive layouts, or intuitive interfaces, I’m dedicated to turning creative ideas into functional and beautiful realities.
                 </p>
-
-                <div class="line"></div>
-
+                <div class="line" aria-hidden="true"></div>
                 <p class="p">
                     I’m in a cycle of write, run, debug, and repeat—constantly refining and evolving my code to bring ideas to life.
                 </p>
-                
             </div>
         </div>
     </section>
@@ -99,22 +136,17 @@
                     <h2>Expert Training </h2>
                 </div>  
                 <div class="type g-type">
-                    <p class="ok"><span>I help companies achieve their objectives by integrating design with code. In the ever-evolving world of web development, keeping up with the latest tools, design trends, and best practices is essential. <br>
-                        <br></span><span>I offer specialized training and consultation in areas such as HTML, CSS, JavaScript, SVG, Progressive Enhancement, Responsive Web Design, and Art Direction. <br>
-                        <br></span><span>Whether you’re aiming to enhance your front-end development skills, transition from print to web design, or improve your website’s UI, I provide customized sessions to meet your needs. Reach out to discover how we can elevate your web projects and achieve your goals together.</p></span>
-                </div>
-
-                <div class="line line-blue"></div>
-
-                <div class="type s-type">
-                   
+                    <p class="ok">
+                        <span>I help companies achieve their objectives by integrating design with code. In the ever-evolving world of web development, keeping up with the latest tools, design trends, and best practices is essential.<br><br></span>
+                        <span>I offer specialized training and consultation in areas such as HTML, CSS, JavaScript, SVG, Progressive Enhancement, Responsive Web Design, and Art Direction.<br><br></span>
+                        <span>Whether you’re aiming to enhance your front-end development skills, transition from print to web design, or improve your website’s UI, I provide customized sessions to meet your needs. Reach out to discover how we can elevate your web projects and achieve your goals together.</span>
                     </p>
                 </div>
-                
+                <div class="line line-blue" aria-hidden="true"></div>
+                <div class="type s-type"></div>
             </div>
-            
             <div class="right-side rotation">
-                <img class="gold3-image" src="./img/gold3.png" alt="" >
+                <img class="gold3-image" src="./img/gold3.png" alt="Frontend Development Training Illustration" loading="lazy">
             </div>
         </div>
     </section>
@@ -122,86 +154,71 @@
     <section>
         <div class="container">
             <div class="left-side-card">
-                
                 <div class="title">
                     <h1>My Recent Projects</h1>
-                    
                 </div>
             </div>
             <div class="right-side-sec">
                 <p>
-                   <br> Every project is a journey of discovery, where the process of building shapes both the product and the creator.
+                    <br> Every project is a journey of discovery, where the process of building shapes both the product and the creator.
                 </p>
-
-                <div class="line"></div>
+                <div class="line" aria-hidden="true"></div>
             </div>
         </div>
-            <div class="card-container">
-                <div class="card card-1" id="ref-1" data-url="/projects.html">
-                    <div class="rotation">
-                        <img src="./img/card-1.png" alt="" class="img-card image">
-                    </div>
-                    <div class="color">ANSL - INDIA </div>
-                    <span>American National Shipping Line <br>
-                        India Pvt. Ltd</span>
+        <div class="card-container">
+            <div class="card card-1" id="ref-1" data-url="/projects.html">
+                <div class="rotation">
+                    <img src="./img/card-1.png" alt="ANSL India Project Preview" class="img-card image" loading="lazy">
                 </div>
-                <div class="card card-2">
-                    <div class="rotation">
-                        <img src="./img/card-2.jpg.png" id="ref-2" alt="" class="img-card image" data-url="/projects.html">
-                    
-                    <div class="color">MAGIC MUSIC</div>
-                    <span>Let the Rhythm Cast its Spell</span>
-                </div>
+                <div class="color">ANSL - INDIA </div>
+                <span>American National Shipping Line <br>India Pvt. Ltd</span>
             </div>
-                <div class="card card-3" id="ref-3"  data-url="https://customeye.netlify.app/">
-                    <div class="rotation">
-                        <img src="./img/Beige And Red Handwritten Typographic Clothing Brand Logo.png" alt="" class="img-card image">
-                    
-                    <div class="color">CUSTOM EYE</div>
-                    <span>A Clothing Brand</span>
+            <div class="card card-2">
+                <div class="rotation">
+                    <img src="./img/card-2.jpg.png" id="ref-2" alt="Magic Music Project Preview" class="img-card image" data-url="/projects.html" loading="lazy">
                 </div>
+                <div class="color">MAGIC MUSIC</div>
+                <span>Let the Rhythm Cast its Spell</span>
+            </div>
+            <div class="card card-3" id="ref-3" data-url="https://customeye.netlify.app/" rel="noopener noreferrer">
+                <div class="rotation">
+                    <img src="./img/Beige And Red Handwritten Typographic Clothing Brand Logo.png" alt="Custom Eye Clothing Brand Project Preview" class="img-card image" loading="lazy">
+                </div>
+                <div class="color">CUSTOM EYE</div>
+                <span>A Clothing Brand</span>
+            </div>
         </div>
     </section>
 
     <section class="footer-section">
         <div class="container" style="padding-bottom:5rem;">
-            
             <div class="left-side-sec3">
                 <div class="title">
                     <h1>My Resume</h1>
-                    
                 </div>
-                <button id="pdf">Resume.pdf  </button>
+                <button id="pdf">Resume.pdf</button>
             </div>
-            
-            <div class="right-side">
-                
-            </div>
+            <div class="right-side"></div>
         </div>
-
-        <div class="line"></div>
-
+        <div class="line" aria-hidden="true"></div>
         <div class="container sides">
             <div class="left-side">
                 <div class="logo">
-                    <img src="./img/star.png" class="star" alt="">
+                    <img src="./img/star.png" class="star" alt="Pratham Bhayana Logo Star" aria-hidden="true">
                     <div>Pratham Bhayana</div>
                 </div>
-
                 <p class="p-2">
                     From New Delhi, India.<br>
-                    
                 </p>
             </div>
             <div class="right-side">
                 <ul class="menu">
-                    <li><a href="contact.html">Contact</a></li>
-                    <li><a href="https://prathambhayanablog.netlify.app/">Blog</a></li>
+                    <li><a href="/contact.html">Contact</a></li>
+                    <li><a href="https://prathambhayanablog.netlify.app/" rel="noopener noreferrer">Blog</a></li>
                     <li><a href="#">Resume</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="#">All About Me</a></li>
-                    <li><a href="#">Social Media</a></li>
-           
+                    <li><a href="/projects.html">Projects</a></li>
+                    <li><a href="/about.html">All About Me</a></li>
+                    <li><a href="#social-links">Social Media</a></li>
                 </ul>
             </div>
         </div>
@@ -210,15 +227,17 @@
     <footer>
         <div class="container">
             <div class="left-side">
-                <p> &copy; copyright 2024 . All rights reserved</p>
+                <p>© copyright 2024. All rights reserved</p>
             </div>
             <div class="right-side center">
-                <p>Term and Conditions</p>
+                <p><a href="/terms.html">Term and Conditions</a></p>
             </div>
         </div>
     </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" defer></script>
+    <script src="home.js" defer></script>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" ></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" ></script>
-<script src="home.js"></script>
 </html>
