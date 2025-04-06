@@ -117,6 +117,11 @@ background: linear-gradient(13deg, rgba(103,125,106,1) 41%, rgba(226,226,182,1) 
     background: radial-gradient(circle, rgba(255,115,0,1) 0%, rgba(148,187,233,1) 100%);
 }
 
+#six{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 9%, rgba(73,90,110,1) 70%);
+}
+
 .c-1{
     cursor: pointer;
     border-radius: 15px;
