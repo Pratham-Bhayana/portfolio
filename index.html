@@ -1,243 +1,566 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <!-- Optimized Meta Tags for SEO -->
-    <title>Pratham Bhayana - Frontend Developer & Web Designer</title>
-    <meta name="description" content="Pratham Bhayana is a skilled Frontend Developer specializing in HTML, CSS, JavaScript, and modern web design. Explore my portfolio for responsive, user-friendly web solutions.">
-    <meta name="keywords" content="Pratham Bhayana, Frontend Developer, Web Designer, HTML, CSS, JavaScript, Responsive Design, Web Development, Portfolio">
-    <meta name="author" content="Pratham Bhayana">
-    <meta name="robots" content="index, follow">
+        <meta name="description" content="Pratham Bhayana - Professional Frontend Developer offering responsive websites, modern UI design, and smooth user experiences.">
+        <meta name="keywords" content="Frontend Developer, Web Developer, HTML, CSS, JavaScript, Responsive Web Design, Freelance Frontend Developer, UI UX Developer google mircosoft job" >
+        <meta name="author" content="Pratham Bhayana">
     
-    <!-- Canonical URL to Avoid Duplicate Content -->
-    <link rel="canonical" href="https://prathambhayana.com/">
+        <meta property="og:title" content="Pratham Bhayana - Frontend Developer">
+        <meta property="og:description" content="Frontend developer specializing in modern, responsive, and interactive websites. Available for freelance work.">
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://prathambhayana.com">
+        <meta property="og:image" content="https://prathambhayana.com/assets/preview-image.jpg">
+    
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Pratham Bhayana - Frontend Developer">
+        <meta name="twitter:description" content="Crafting modern, responsive and high-performance websites. Freelance frontend developer.">
+        <meta name="twitter:image" content="https://prathambhayana.com/assets/preview-image.jpg">
+    
+        <title>Pratham Bhayana - Frontend Developer | Responsive Web Design Expert</title>
+    
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link href="css/magnific-popup.css" rel="stylesheet">
+        <link href="css/templatemo-first-portfolio-style.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="/img/favicon-32x32.png">
+    </head>
+    
+    <body>
 
-    <!-- Open Graph Tags for Social Media -->
-    <meta property="og:title" content="Pratham Bhayana - Frontend Developer & Web Designer">
-    <meta property="og:description" content="Portfolio of Pratham Bhayana, a Frontend Developer specializing in creating intuitive and engaging web experiences using HTML, CSS, and JavaScript.">
-    <meta property="og:image" content="https://prathambhayana.com/img/pratham-bhayana-profile.jpg">
-    <meta property="og:url" content="https://prathambhayana.com/">
-    <meta property="og:type" content="website">
 
-    <!-- Twitter Card Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Pratham Bhayana - Frontend Developer & Web Designer">
-    <meta name="twitter:description" content="Portfolio of Pratham Bhayana, a Frontend Developer specializing in creating intuitive and engaging web experiences using HTML, CSS, and JavaScript.">
-    <meta name="twitter:image" content="https://prathambhayana.com/img/pratham-bhayana-profile.jpg">
-
-    <!-- Sitemap Reference -->
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
-
-    <!-- External Styles and Fonts -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="home.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Orbitron:wght@400;500;700&display=swap" rel="stylesheet">
-
-    <!-- Favicon for Branding -->
-    <link rel="icon" type="image/png" href="./img/favicon-32x32.png">
-</head>
-<body>
-    <!-- Schema Markup for Person -->
-    <script type="application/ld+json">
-    {
-        "@context": "https://schema.org",
-        "@type": "Person",
-        "name": "Pratham Bhayana",
-        "jobTitle": "Frontend Developer",
-        "description": "Pratham Bhayana is a Frontend Developer specializing in HTML, CSS, JavaScript, and modern web design, delivering responsive and user-friendly digital solutions.",
-        "url": "https://prathambhayana.com/",
-        "sameAs": [
-            "https://www.linkedin.com/in/pratham-bhayana-210629325/",
-            "https://github.com/Pratham-Bhayana/",
-            "https://www.instagram.com/pratham_bhayana/",
-            "https://www.facebook.com/share/V37ExzicGT2sj7Ji/?mibextid=qi2Omg"
-        ],
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "New Delhi",
-            "addressCountry": "India"
-        }
-    }
-    </script>
-
-    <header>
-        <nav class="nav-bar" aria-label="Main navigation">
-            <div class="logo">
-                <img class="star" src="./img/star.png" alt="Pratham Bhayana Logo Star" aria-hidden="true">
-                <div>Pratham Bhayana</div>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="index.html" class="navbar-brand mx-auto mx-lg-0">Pratham Bhayana</a>
+                <a href="index.html" class="navbar-brand mx-auto mx-lg-0 mobile">PB</a>
+                <div class="d-flex align-items-center d-lg-none">
+                    <i class="navbar-icon bi-telephone-plus me-3"></i>
+                    <a class="custom-btn btn" href="#section_5"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-lg-5">
+                        <li class="nav-item"><a class="nav-link click-scroll" href="#section_1">Home</a></li>
+                        <li class="nav-item"><a class="nav-link click-scroll" href="#section_2">About</a></li>
+                        <li class="nav-item"><a class="nav-link click-scroll" href="#section_3">Services</a></li>
+                        <li class="nav-item"><a class="nav-link click-scroll" href="#section_4">Projects</a></li>
+                        <li class="nav-item"><a class="nav-link click-scroll" href="#section_5">Contact</a></li>
+                    </ul>
+                    <div class="d-lg-flex align-items-center d-none ms-auto">
+                        <i class="navbar-icon bi-telephone-plus me-3"></i>
+                        <a class="custom-btn btn" href="#section_5">+91 8595873470</a>
+                    </div>
+                </div>
             </div>
-            
-            <ul class="menu-items">
-                <li><a href="/" aria-current="page">Home</a></li>
-                <li><a href="https://prathambhayanablog.netlify.app/" rel="noopener noreferrer">Blog</a></li>
-                <li><a href="/contact.html">Contact</a></li>
-            </ul>
         </nav>
-    </header>  
-    
-    <section class="section-one">
-        <div class="container">
-            <div class="left-side">
-                <div class="title">
-                    <h1>Pratham Bhayana
-                        <img src="./img/star.png" alt="Star Icon" class="star" aria-hidden="true">
-                    </h1>
-                </div>
-                <p class="p">
-                    Front-end developer with a passion for creating intuitive and engaging user experiences. Specializing in modern web design, clean code, and responsive layouts. Delivering seamless and visually appealing digital solutions.
-                </p>
-                <button id="know">Projects</button>
-            </div>
-            <div class="right-side pyramid">
-                <img src="./img/gold.png" usemap="#image-map" alt="Social Media Links Pyramid" class="gold glow image">
-                <!-- Defining the image map -->
-                <map name="image-map" id="image-map">
-                    <area target="_blank" alt="Facebook Profile" title="Visit Pratham Bhayana on Facebook" href="https://www.facebook.com/share/V37ExzicGT2sj7Ji/?mibextid=qi2Omg" coords="200,256,17" shape="circle">
-                    <area target="_blank" alt="Instagram Profile" title="Visit Pratham Bhayana on Instagram" href="https://www.instagram.com/pratham_bhayana/" coords="233,191,20" shape="circle">
-                    <area target="_blank" alt="Placeholder Link" title="Placeholder Link" href="#" coords="277,118,20" shape="circle">
-                    <area target="_blank" alt="GitHub Profile" title="Visit Pratham Bhayana on GitHub" href="https://github.com/Pratham-Bhayana/Pratham-Bhayana/" coords="336,187,18" shape="circle">
-                    <area target="_blank" alt="LinkedIn Profile" title="Visit Pratham Bhayana on LinkedIn" href="https://www.linkedin.com/in/pratham-bhayana-210629325/" coords="373,236,18" shape="circle">
-                </map>
-            </div>
-        </div>
-    </section>
 
-    <section>
-        <div class="container">
-            <div class="left-side hand">
-                <img class="gold-image" src="./img/gold2.png" alt="Creative Frontend Development Illustration" loading="lazy">
-            </div>
-            <div class="right-side-sec2">
-                <div class="title">
-                    <h1>Innovative Front-End Development <br> </h1>
-                    <h2> with a Creative Touch</h2>
+        <main>
+            <section class="hero d-flex justify-content-center align-items-center" id="section_1">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-7 col-12">
+                            <div class="hero-text">
+                                <div class="hero-title-wrap d-flex align-items-center mb-4">
+                                    <h1 class="hero-title ms-3 mb-0">Hello Everyone!</h1>
+                                </div>
+                                <h2 class="mb-4" id="hero-sub">I’m Front-end developer available for freelance work.</h2>
+                                <p class="mb-4" id="hero-btn"><a class="custom-btn btn custom-link" href="#section_4">Projects</a></p>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col-12">
+                            <div class="hero-image-wrap">
+                                <lottie-player id="dot-lottie-player" autoplay loop mode="normal"></lottie-player>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <p class="p">
-                    Hi, I'm Pratham Bhayana, a front-end developer with a flair for blending creativity with technology. I specialize in crafting visually stunning and highly interactive websites that not only look great but also provide seamless user experiences. My approach combines modern design principles with innovative solutions to create unique and engaging digital experiences. Whether it’s through dynamic animations, responsive layouts, or intuitive interfaces, I’m dedicated to turning creative ideas into functional and beautiful realities.
-                </p>
-                <div class="line" aria-hidden="true"></div>
-                <p class="p">
-                    I’m in a cycle of write, run, debug, and repeat—constantly refining and evolving my code to bring ideas to life.
-                </p>
-            </div>
-        </div>
-    </section>
+            </section>
 
-    <section>
-        <div class="container">
-            <div class="left-side-sec2">
-                <div class="title">
-                    <h1>Design & Code <br> 
-                    <h2>Expert Training </h2>
-                </div>  
-                <div class="type g-type">
-                    <p class="ok">
-                        <span>I help companies achieve their objectives by integrating design with code. In the ever-evolving world of web development, keeping up with the latest tools, design trends, and best practices is essential.<br><br></span>
-                        <span>I offer specialized training and consultation in areas such as HTML, CSS, JavaScript, SVG, Progressive Enhancement, Responsive Web Design, and Art Direction.<br><br></span>
-                        <span>Whether you’re aiming to enhance your front-end development skills, transition from print to web design, or improve your website’s UI, I provide customized sessions to meet your needs. Reach out to discover how we can elevate your web projects and achieve your goals together.</span>
-                    </p>
-                </div>
-                <div class="line line-blue" aria-hidden="true"></div>
-                <div class="type s-type"></div>
-            </div>
-            <div class="right-side rotation">
-                <img class="gold3-image" src="./img/gold3.png" alt="Frontend Development Training Illustration" loading="lazy">
-            </div>
-        </div>
-    </section>
+            <section class="about section-padding" id="section_2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-12" id="about-can" style="border-radius: 25px; display: flex; justify-content: center; align-items: center;">
+                            <lottie-player id="dotlottie-player" autoplay loop mode="normal" style=" display: flex; justify-content: center; align-items: center;"></lottie-player>
+                        </div>
+                        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                            <div class="about-thumb">
+                                <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
+             
 
-    <section>
-        <div class="container">
-            <div class="left-side-card">
-                <div class="title">
-                    <h1>My Recent Projects</h1>
-                </div>
-            </div>
-            <div class="right-side-sec">
-                <p>
-                    <br> Every project is a journey of discovery, where the process of building shapes both the product and the creator.
-                </p>
-                <div class="line" aria-hidden="true"></div>
-            </div>
-        </div>
-        <div class="card-container">
-            <div class="card card-1" id="ref-1" data-url="/projects.html">
-                <div class="rotation">
-                    <img src="./img/card-1.png" alt="ANSL India Project Preview" class="img-card image" loading="lazy">
-                </div>
-                <div class="color">ANSL - INDIA </div>
-                <span>American National Shipping Line <br>India Pvt. Ltd</span>
-            </div>
-            <div class="card card-2">
-                <div class="rotation">
-                    <img src="./img/card-2.jpg.png" id="ref-2" alt="Magic Music Project Preview" class="img-card image" data-url="/prathambhayana.com/projects" loading="lazy">
-                </div>
-                <div class="color">MAGIC MUSIC</div>
-                <span>Let the Rhythm Cast its Spell</span>
-            </div>
-            <div class="card card-3" id="ref-3" data-url="https://customeye.netlify.app/" rel="noopener noreferrer">
-                <div class="rotation">
-                    <img src="./img/Beige And Red Handwritten Typographic Clothing Brand Logo.png" alt="Custom Eye Clothing Brand Project Preview" class="img-card image" loading="lazy">
-                </div>
-                <div class="color">CUSTOM EYE</div>
-                <span>A Clothing Brand</span>
-            </div>
-        </div>
-    </section>
+                                    <h2 class="text-white ms-4 mb-0">About Me</h2>
+                                </div>
 
-    <section class="footer-section">
-        <div class="container" style="padding-bottom:5rem;">
-            <div class="left-side-sec3">
-                <div class="title">
-                    <h1>My Resume</h1>
-                </div>
-                <button id="pdf">Resume.pdf</button>
-            </div>
-            <div class="right-side"></div>
-        </div>
-        <div class="line" aria-hidden="true"></div>
-        <div class="container sides">
-            <div class="left-side">
-                <div class="logo">
-                    <img src="./img/star.png" class="star" alt="Pratham Bhayana Logo Star" aria-hidden="true">
-                    <div>Pratham Bhayana</div>
-                </div>
-                <p class="p-2">
-                    From New Delhi, India.<br>
-                </p>
-            </div>
-            <div class="right-side">
-                <ul class="menu">
-                    <li><a href="/contact.html">Contact</a></li>
-                    <li><a href="https://prathambhayanablog.netlify.app/" rel="noopener noreferrer">Blog</a></li>
-                    <li><a href="#">Resume</a></li>
-                    <li><a href="/projects.html">Projects</a></li>
-                    <li><a href="/about.html">All About Me</a></li>
-                    <li><a href="#social-links">Social Media</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
+                                </div>
+                                <h3 class="pt-2 mb-3">A little bit about me</h3>
+                                <p>Front-end developer with a passion for creating intuitive and engaging user experiences. Specializing in modern web design, clean code, and responsive layouts. Delivering seamless and visually appealing digital solutions.</p>
+                                <p>Hi, I'm Pratham Bhayana, a front-end developer with a flair for blending creativity with technology. I specialize in crafting visually stunning and highly interactive... <br><a href="#" target="_blank"><span  id="read-more">Read More</a></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>                      
+            </section>
 
-    <footer>
-        <div class="container">
-            <div class="left-side">
-                <p>© copyright 2024. All rights reserved</p>
-            </div>
-            <div class="right-side center">
-                <p><a href="/terms.html">Term and Conditions</a></p>
-            </div>
-        </div>
-    </footer>
+            <section class="featured section-padding">
+                <div class="container">
+                    <div class="row">
 
-    <!-- Scripts -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js" defer></script>
-    <script src="home.js" defer></script>
-</body>
+                        <div class="col-lg-6 col-12">
+                            <div class="profile-thumb">
+                                <div class="profile-title">
+                                    <h4 class="mb-0">Information</h4>
+                                </div>
+
+                                <div class="profile-body">
+                                    <p>
+                                        <span class="profile-small-title">Name</span> 
+                                        <span>Pratham Bhayana</span>
+                                    </p>
+
+                                    <p>
+                                        <span class="profile-small-title">Birthday</span> 
+                                        <span>May 17, 2004</span>
+                                    </p>
+
+                                    <p>
+                                        <span class="profile-small-title">Phone</span> 
+                                         <span><a href="tel: 305-240-9671">+91 8595873470 </a></span>
+                                    </p>
+
+                                    <p>
+                                        <span class="profile-small-title">Email</span> 
+                                        <span><a href="mailto:hello@josh.design">Click to send email</a></span>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                            <div class="about-thumb">
+                                <div class="row">
+                                    <div class="col-lg-6 col-6 featured-border-bottom py-2">
+                                        <strong class="featured-numbers">2+</strong>
+
+                                        <p class="featured-text">Years of Experiences</p>
+                                    </div>
+
+                                    <div class="col-lg-6 col-6 featured-border-start featured-border-bottom ps-5 py-2">
+                                        <strong class="featured-numbers">24</strong>
+
+                                        <p class="featured-text">Happy Customers</p>
+                                    </div>
+
+                                    <div class="col-lg-6 col-6 pt-4">
+                                        <strong class="featured-numbers">31</strong>
+
+                                        <p class="featured-text">Project Finished</p>
+                                    </div>
+
+                                    <div class="col-lg-6 col-6 featured-border-start ps-5 pt-4">
+                                        <strong class="featured-numbers">7</strong>
+
+                                        <p class="featured-text">Days of work</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            <section class="services section-padding" id="section_3">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-10 col-12 mx-auto">
+                            <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
+             
+
+                                <h2 class="text-white ms-4 mb-0">Services</h2>
+                            </div>
+
+                            <div class="row pt-lg-5">
+                                <div class="col-lg-6 col-12">
+                                    <div class="services-thumb">
+                                        <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
+                                            <h3 class="mb-0">Websites</h3>
+
+                                            <div class="services-price-wrap ms-auto">
+                                                <a href="#section_5" class="text-decoration-none">
+                                                <p class="services-price-text mb-0">contact</p></a>
+                                                <div class="services-price-overlay"></div>
+                                            </div>
+                                        </div>
+
+                                        <p>Pixel-perfect websites built to adapt seamlessly on all devices.</p>
+
+                                        <a href="projects.html" class="custom-btn custom-border-btn btn mt-3">See Projects </a>
+
+                                        <div class="services-icon-wrap d-flex justify-content-center align-items-center">
+                                            <i class="services-icon bi-globe"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <div class="services-thumb services-thumb-up">
+                                        <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
+                                            <h3 class="mb-0">Branding</h3>
+
+                                            <div class="services-price-wrap ms-auto">
+                                                <a href="#section_5" class="text-decoration-none">
+                                                <p class="services-price-text mb-0">contact</p>
+                                                </a>
+                                                <div class="services-price-overlay"></div>
+                                            </div>
+                                        </div>
+
+                                        <p>From logo to colors – building a visual identity that speaks for your brand.</p>
+
+                                        <a href="projects.html" class="custom-btn custom-border-btn btn mt-3">See Projects</a>
+
+                                        <div class="services-icon-wrap d-flex justify-content-center align-items-center">
+                                            <i class="services-icon bi-lightbulb"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <div class="services-thumb">
+                                        <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
+                                            <h3 class="mb-0">Ecommerce</h3>
+
+                                            <div class="services-price-wrap ms-auto">
+                                                <a href="#section_5" class="text-decoration-none">
+                                                <p class="services-price-text mb-0">contact</p>
+                                                </a>
+                                                <div class="services-price-overlay"></div>
+                                            </div>
+                                        </div>
+
+                                        <p>Eye-catching layouts that highlight your product features and drive sales.</p>
+
+                                        <a href="projects.html" class="custom-btn custom-border-btn btn mt-3">See Projects</a>
+
+                                        <div class="services-icon-wrap d-flex justify-content-center align-items-center">
+                                            <i class="services-icon bi-phone"></i>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-12">
+                                    <div class="services-thumb services-thumb-up">
+                                        <div class="d-flex flex-wrap align-items-center border-bottom mb-4 pb-3">
+                                            <h3 class="mb-0">SEO</h3>
+
+                                            <div class="services-price-wrap ms-auto">
+                                                <a href="#section_5" class="text-decoration-none">
+                                                <p class="services-price-text mb-0">contact</p>
+                                                </a>
+                                                <div class="services-price-overlay"></div>
+                                            </div>
+                                        </div>
+
+                                        <p>Improve meta tags, headings, alt attributes, URL structure & more.</p>
+
+                                        <a href="projects.html" class="custom-btn custom-border-btn btn mt-3">See Projects</a>
+
+                                        <div class="services-icon-wrap d-flex justify-content-center align-items-center">
+                                            <i class="services-icon bi-google"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="projects section-padding" id="section_4">
+                <div class="container">
+                    <div class="row">
+
+                        <div class="col-lg-8 col-md-8 col-12 ms-auto">
+                            <div class="section-title-wrap d-flex justify-content-center align-items-center mb-4 ">
+
+
+                                <h2 class="text-white ms-4 mb-0">Projects</h2>
+                                <a href="projects.html"><i class="bi bi-box-arrow-up-right" id="icon" aria-label="project"></i></a>
+                          
+                            </div>
+                        </div>
+
+                        <div class="clearfix"></div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="projects-thumb">
+                                <div class="projects-info">
+                                    <small class="projects-tag">Web Development</small>
+                                    <a href="https://silver-unicorn-0614dd.netlify.app/" target="_blank">
+                                    <h3 class="projects-title">Magic Music</h3>
+                                    </a>
+                                </div>
+
+                                <a href="https://silver-unicorn-0614dd.netlify.app/" target="_blank">
+                                    <img src="images/thumbnail-mm.png" class="projects-image img-fluid" alt="magic music javaScript project by frontend developer Pratham Bhayana" width="300px" height="200px">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="projects-thumb">
+                                <div class="projects-info">
+                                    <small class="projects-tag">Web Development</small>
+                                    <a href="https://indi-x.netlify.app/" target="_blank">
+                                    <h3 class="projects-title">INDI-X</h3></a>
+                                </div>
+
+                                <a href="https://indi-x.netlify.app/" target="_blank">
+                                    <img src="images/indix.png" class="projects-image img-fluid" alt="INDI-X backend Project by frontend Developer Pratham Bhayana">
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 col-12">
+                            <div class="projects-thumb">
+                                <div class="projects-info">
+                                    <a href="https://writerscapes.netlify.app/landing.html" aria-label="netlify" target="_blank">
+                                    <small class="projects-tag">Website</small>
+
+                                    <h3 class="projects-title">Writerscapes</h3>
+                                </div>
+
+                                <a href="https://writerscapes.netlify.app/landing.html" target="_blank">
+                                    <img src="images/writerscapes.png" class="projects-image img-fluid" alt="full stand project Writerscapes by frontend developer Pratham Bhayana">
+                                </a>
+                            </div>
+                        </div>
+                            <a href="projects.html">Click to View More</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact section-padding" id="section_5">
+                    <div class="container">
+                        <div class="row">
+
+                            <div class="col-lg-6 col-md-8 col-12">
+                                <div class="section-title-wrap d-flex justify-content-center align-items-center mb-5">
+                
+
+                                    <h2 class="text-white ms-4 mb-0">Say Hi</h2>
+                                </div>
+                            </div>
+
+                            <div class="clearfix"></div>
+
+                            <div class="col-lg-3 col-md-6 col-12 pe-lg-0">
+                                <div class="contact-info contact-info-border-start d-flex flex-column">
+                                    <strong class="site-footer-title d-block mb-3">Services</strong>
+
+                                    <ul class="footer-menu">
+                                        <li class="footer-menu-item"><a  class="footer-menu-link">Websites</a></li>
+
+                                        <li class="footer-menu-item"><a class="footer-menu-link">Branding</a></li>
+
+                                        <li class="footer-menu-item"><a  class="footer-menu-link">Ecommerce</a></li>
+
+                                        <li class="footer-menu-item"><a class="footer-menu-link">SEO</a></li>
+                                    
+                                    
+                                    <li class="footer-menu-item">
+    <button id="download-resume" class="footer-menu-link">My Resume</button>
+</li></ul>
+                                    <strong class="site-footer-title d-block mt-4 mb-3">Stay connected</strong>
+
+                                    <ul class="social-icon">
+                                        <li class="social-icon-item"><a href="https://github.com/Pratham-Bhayana/Pratham-Bhayana/" class="social-icon-link bi-github" aria-label="GitHub"target="_blank"></a></li>
+
+                                        <li class="social-icon-item"><a href="https://www.instagram.com/pratham_bhayana/" class="social-icon-link bi-instagram" aria-label="GitHub" target="_blank"></a></li>
+
+                                        <li class="social-icon-item"><a href="" class="social-icon-link bi-twitter" aria-label="GitHub"></a></li>
+
+                                        <li class="social-icon-item"><a href="https://www.linkedin.com/in/pratham-bhayana-210629325/" class="social-icon-link bi-linkedin" aria-label="GitHub" target="_blank"></a></li>
+                                    </ul>
+
+                                    <strong class="site-footer-title d-block mt-4 mb-3">Start a project</strong>
+
+                                    <p class="mb-0">I’m available for freelance projects</p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-3 col-md-6 col-12 ps-lg-0">
+                                <div class="contact-info d-flex flex-column">
+                                    <strong class="site-footer-title d-block mb-3">About</strong>
+
+                                    <p class="mb-2">
+                                  I am a professional web developer. Feel free to get in touch with me.
+                              </p>
+
+                                    <strong class="site-footer-title d-block mt-4 mb-3">Email</strong>
+
+                                    <p>
+                                        <a href="mailto:pratham.bhayana@outlook.com">
+                                            pratham.bhayana<br>@outlook.com
+                                        </a>
+                                    </p>
+
+                                    <strong class="site-footer-title d-block mt-4 mb-3">Call</strong>
+
+                                    <p class="mb-0">
+                                        <a href="tel: +91 8595873470">
+                                            +91 8595873470
+                                        </a>
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12 mt-5 mt-lg-0">
+                                <form action="#" method="get" class="custom-form contact-form" role="form">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-md-6 col-12">
+                                            <div class="form-floating">
+                                                <form netlify>
+                                                <input type="text" name="name" id="name" class="form-control" placeholder="Name" required="">
+                                                   
+                                                <label for="floatingInput">Name</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-md-6 col-12"> 
+                                            <div class="form-floating">
+                                                <input type="email" name="email" id="email" pattern="[^ @]*@[^ @]*" class="form-control" placeholder="Email address" required="">
+                                                
+                                                <label for="floatingInput">Email address</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-6 col-6">
+                                            <div class="form-check form-check-inline">
+                                                <input name="website" type="checkbox" class="form-check-input" id="inlineCheckbox1" value="1">
+
+                                                <label class="form-check-label" for="inlineCheckbox1">
+                                                    <i class="bi-globe form-check-icon"></i>
+                                                    <span class="form-check-label-text">Websites</span>
+                                                </label>
+                                          </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-6 col-6">
+                                            <div class="form-check form-check-inline">
+                                                <input name="branding" type="checkbox" class="form-check-input" id="inlineCheckbox2" value="1">
+
+                                                <label class="form-check-label" for="inlineCheckbox2">
+                                                    <i class="bi-lightbulb form-check-icon"></i>
+                                                    <span class="form-check-label-text">Branding</span>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-6 col-6">
+                                            <div class="form-check form-check-inline">
+                                                <input name="ecommerce" type="checkbox" class="form-check-input" id="inlineCheckbox3" value="1">
+
+                                                <label class="form-check-label" for="inlineCheckbox3">
+                                                    <i class="bi-phone form-check-icon"></i>
+                                                    <span class="form-check-label-text">Ecommerce</span>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-md-6 col-6">
+                                            <div class="form-check form-check-inline me-0">
+                                                <input name="seo" type="checkbox" class="form-check-input" id="inlineCheckbox4" value="1">
+
+                                                <label class="form-check-label" for="inlineCheckbox4">
+                                                    <i class="bi-google form-check-icon"></i>
+                                                    <span class="form-check-label-text">SEO</span>
+                                                </label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-12 col-12">
+                                            <div class="form-floating">
+                                                <textarea class="form-control" id="message" name="message" placeholder="Tell me about the project"></textarea>
+                                                
+                                                <label for="floatingTextarea">Tell me about the project</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-3 col-12 ms-auto">
+                                            <button type="submit" class="form-control">Send</button>
+                                        </div>
+
+                                    </div>
+                                </form>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+
+        <footer class="site-footer">
+            Pratham Bhayana 
+            <p>From New Delhi, India.</p>
+            © copyright 2025     All rights reserved
+        </footer>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+        <!-- Custom Lottie Script -->
+        <script>
+            document.addEventListener("DOMContentLoaded", () => {
+                const player1 = document.getElementById("dot-lottie-player");
+                const player2 = document.getElementById("dotlottie-player");
+                const isMobile = window.innerWidth <= 768;
+
+                player1.style.width = isMobile ? '300px' : '400px';
+                player1.style.height = isMobile ? '300px' : '400px';
+                player2.style.width = isMobile ? '100%' : '600px';
+                player2.style.maxWidth = isMobile ? '400px' : '600px';
+                player2.style.height = isMobile ? '300px' : '400px';
+
+                player1.load("images/profile.json");
+                player2.load("images/about.json");
+            });
+        </script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+        <!-- JAVASCRIPT FILES -->
+        <script src="js/animation.js"></script>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.sticky.js"></script>
+        <script src="js/click-scroll.js"></script>
+        <script src="js/jquery.magnific-popup.min.js"></script>
+        <script src="js/magnific-popup-options.js"></script>
+        <script src="js/custom.js"></script>
+        <script>
+ document.getElementById("download-resume").addEventListener("click", function () {
+        const link = document.createElement('a');
+        link.href = 'img/Resume.pdf'; // path to your resume
+        link.download = 'Pratham_Bhayana_Resume.pdf'; // optional custom file name
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    });
+        </script>
+    </body>
 </html>

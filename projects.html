@@ -1,88 +1,243 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0">
-    <title>Projects - PB</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="projects.css">
-    <link rel="icon" type="image/png" href="./img/favicon-32x32.png">
-</head>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="">
+        <title>Pratham Bhayana - Frontend developer</title>
+        <title>Projects | Pratham Bhayana - Frontend Web Developer</title>
+<meta name="title" content="Projects | Pratham Bhayana - Frontend Web Developer">
+<meta name="description" content="Discover high-quality frontend development projects by Pratham Bhayana. Featuring responsive websites built using HTML, CSS, JavaScript, and GSAP with smooth animations and clean UI/UX.">
+<meta name="keywords" content="Frontend Developer, Web Developer, HTML CSS JavaScript, GSAP, Portfolio, Responsive Websites, Pratham Bhayana Projects">
+<meta name="author" content="Pratham Bhayana">
+<link rel="canonical" href="https://prathambhayana.com/projects">
 
-<body>
-    <header>
-        <nav class="nav-bar">
-            <div class="logo">
-                <div>Pratham Bhayana</div>
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://prathambhayana.com/projects">
+<meta property="og:title" content="Projects | Pratham Bhayana - Frontend Web Developer">
+<meta property="og:description" content="Explore beautifully crafted web development projects by Pratham Bhayana. Built with modern technologies and animations.">
+<meta property="og:image" content="https://prathambhayana.com/img/preview.png"> <!-- Replace with your own image path -->
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://prathambhayana.com/projects">
+<meta property="twitter:title" content="Projects | Pratham Bhayana - Frontend Web Developer">
+<meta property="twitter:description" content="Explore beautifully crafted web development projects by Pratham Bhayana. Built with modern technologies and animations.">
+<meta property="twitter:image" content="https://prathambhayana.com/img/preview.png"> <!-- Replace with your own image path -->
+        <!-- CSS FILES -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap-icons.css" rel="stylesheet">
+        <link href="css/magnific-popup.css" rel="stylesheet">
+        <link href="css/templatemo-first-portfolio-style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/projects.css">
+        <link rel="icon" type="image/png" href="/img/favicon-32x32.png">
+    </head>
+    
+    <body>
+       
+
+        <nav class="navbar navbar-expand-lg">
+            <div class="container">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a href="index.html" class="navbar-brand mx-auto mx-lg-0">Pratham Bhayana</a>
+                <a href="index.html" class="navbar-brand mx-auto mx-lg-0 mobile">PB</a>
+                <div class="d-flex align-items-center d-lg-none">
+                    <i class="navbar-icon bi-telephone-plus me-3"></i>
+                    <a class="custom-btn btn" href="#section_5"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-lg-5">
+                        <li class="nav-item"><a class="nav-link click-scroll" href="index.html">Home</a></li>
+                        <li class="nav-item"><a class="nav-link click-scroll" href="index.html#section_2">About</a></li>
+                        <li class="nav-item"><a class="nav-link click-scroll" href="index.html#section_3">Services</a></li>
+                        <li class="nav-item"><a class="nav-link click-scroll" href="https://prathambhayanablog.netlify.app/">Blog</a></li>
+                        <li class="nav-item"><a class="nav-link click-scroll" href="index.html#section_5">Contact</a></li>
+                    </ul>
+                    <div class="d-lg-flex align-items-center d-none ms-auto">
+                        <i class="navbar-icon bi-telephone-plus me-3"></i>
+                        <a class="custom-btn btn" href="#section_5">+91 8595873470</a>
+                    </div>
+                </div>
             </div>
-            <ul class="menu-items">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="https://prathambhayanablog.netlify.app/">Blog</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
         </nav>
-    </header>  
-    <section class="content">
-        <div class="title">
-            A small selection <br>of my work.
-        </div>
 
-        <div class="project-grid">
-            <div class="cards-container">
-                
-
-                <div class="cards" id="six">
-                    <div class="preview">
-                        <!-- Make sure the path and case are correct -->
-                        <img src="./img/SCS.png" data-url="https://scs-theta.vercel.app/" class="c-1" alt="INID-X Project Thumbnail">
-                    </div>
-                </div>
-
-                <div class="cards" id="one">
-                    <div class="preview">
-                        <!-- Make sure the path and case are correct -->
-                        <img src="./img/indix.png" data-url="https://indi-x.netlify.app/" class="c-1" alt="INID-X Project Thumbnail">
-                    </div>
-                </div>
-
-                <div class="cards" id="five">
-                    <div class="preview">
-                        <!-- Make sure the path and case are correct -->
-                        <img src="./img/writerscapes.png" data-url="https://writerscapes.netlify.app/landing.html" class="c-1" alt="INID-X Project Thumbnail">
-                    </div>
-                </div>
-
-                <div class="cards" id="two">
-                    <!-- Ensure file name and path match exactly (case-sensitive) -->
-                    <img src="./img/thumbnail-mm.png" data-url="https://silver-unicorn-0614dd.netlify.app" class="c-1" alt="Magic Music Project Thumbnail">
-                </div>
-
-                <div class="cards" id="three">
-                    <!-- Check file extension and name -->
-                    <img src="./img/Beige And Red Handwritten Typographic Clothing Brand Logo.png"  data-url="https://customeye.netlify.app/" class="c-2" alt="Blog Project Thumbnail">
-                </div>
-                <div class="cards" id="four">
-                    <div class="preview">
-                        <!-- Make sure the path and case are correct -->
-                        <img src="./img/pb-high-resolution-logo.png"  data-url="https://prathambhayanablog.netlify.app/" class="c-2" alt="ANSL Project Thumbnail">
-                    </div>
-
-                    </div>
-
-                    <div class="cards" id="two">
-                        <img src="./img/thumbnail-ansl.png"  data-url="https://ansl.netlify.app/" class="c-2" alt="ANSL Project Thumbnail">
-                        </div>
-                        </div>
-
-
-                
+        <section class="content">
+            <div class="title">
+                A small selection <br>of my work.
             </div>
-        </div>
-    </section>
-</body>
+    
+            <div class="project-grid">
+                <div class="cards-container">
+                    
+    
+                    <div class="cards" id="six">
+                        <div class="preview">
+                            <!-- Make sure the path and case are correct -->
+                            <img src="./img/SCS.png" data-url="https://scs-theta.vercel.app/" class="c-1" alt="INID-X Project Thumbnail">
+                        </div>
+                    </div>
+    
+                    <div class="cards" id="one">
+                        <div class="preview">
+                            <!-- Make sure the path and case are correct -->
+                            <img src="./img/indix.png" data-url="https://indi-x.netlify.app/" class="c-1" alt="INID-X Project Thumbnail">
+                        </div>
+                    </div>
+    
+                    <div class="cards" id="five">
+                        <div class="preview">
+                            <!-- Make sure the path and case are correct -->
+                            <img src="./img/writerscapes.png" data-url="https://writerscapes.netlify.app/landing.html" class="c-1" alt="INID-X Project Thumbnail">
+                        </div>
+                    </div>
+    
+                    <div class="cards" id="two">
+                        <!-- Ensure file name and path match exactly (case-sensitive) -->
+                        <img src="./img/thumbnail-mm.png" data-url="https://silver-unicorn-0614dd.netlify.app" class="c-1" alt="Magic Music Project Thumbnail">
+                    </div>
+    
+                    <div class="cards" id="three">
+                        <!-- Check file extension and name -->
+                        <img src="./img/Beige And Red Handwritten Typographic Clothing Brand Logo.png"  data-url="https://customeye.netlify.app/" class="c-2" alt="Blog Project Thumbnail">
+                    </div>
+                    <div class="cards" id="four">
+                        <div class="preview">
+                            <!-- Make sure the path and case are correct -->
+                            <img src="./img/pb-high-resolution-logo.png"  data-url="https://prathambhayanablog.netlify.app/" class="c-2" alt="ANSL Project Thumbnail">
+                        </div>
+    
+                        </div>
+    
+                        <div class="cards" id="two">
+                            <img src="./img/thumbnail-ansl.png"  data-url="https://ansl.netlify.app/" class="c-2" alt="ANSL Project Thumbnail">
+                            </div>
+                            </div>
+    
+    
+                    
+                </div>
+            </div>
+        </section>
+    </body>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/click-scroll.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/magnific-popup-options.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
-<script src="project.js"></script>
+// Register ScrollTrigger plugin
+gsap.registerPlugin(ScrollTrigger);
+
+// Animate the title
+gsap.from('.title', {
+  duration: 1,
+  y: 100,
+  opacity: 0,
+  ease: 'power2.inOut',
+  scrollTrigger: {
+    trigger: '.title',
+    start: 'top 80%',
+    end: 'bottom 20%',
+    toggleActions: 'play none none reset',
+  },
+});
+
+// Animate the cards
+gsap.from('.cards', {
+  duration: 1,
+  y: 100,
+  opacity: 0,
+  ease: 'power2.inOut',
+  stagger: 0.2,
+  scrollTrigger: {
+    trigger: '.cards-container',
+    start: 'top 80%',
+    end: 'bottom 20%',
+    toggleActions: 'play none none reset',
+  },
+});
+
+// Animate the images
+gsap.from('.c-1, .c-2', {
+  duration: 1,
+  scale: 0.5,
+  opacity: 0,
+  ease: 'power2.inOut',
+  scrollTrigger: {
+    trigger: '.cards-container',
+    start: 'top 80%',
+    end: 'bottom 20%',
+    toggleActions: 'play none none reset',
+  },
+});
+
+// Animate the navigation
+gsap.from('.nav-bar', {
+  duration: 1,
+  y: -100,
+  opacity: 0,
+  ease: 'power2.inOut',
+  scrollTrigger: {
+    trigger: '.nav-bar',
+    start: 'top 80%',
+    end: 'bottom 20%',
+    toggleActions: 'play none none reset',
+  },
+});
+
+// Animate the menu items
+gsap.from('.menu-items li', {
+  duration: 1,
+  y: 100,
+  opacity: 0,
+  ease: 'power2.inOut',
+  stagger: 0.2,
+  scrollTrigger: {
+    trigger: '.nav-bar',
+    start: 'top 80%',
+    end: 'bottom 20%',
+    toggleActions: 'play none none reset',
+  },
+});
+
+gsap.from('.cards',{
+scrollTrigger :{
+    trigger : '#three',
+    x:-500,
+    opacity :0,
+    duration :1,
+    start :"top 80%",
+    end : "bottom 80%",
+ 
+
+}
+
+})
+
+const cards = document.querySelectorAll('.cards'); // Select individual cards
+
+cards.forEach(card => {
+  card.addEventListener('click', () => {
+    const img = card.querySelector('img[data-url]'); // Find the image inside each card
+    const url = img.getAttribute('data-url'); // Get the data-url attribute value
+    if (url && url !== '#') { // Check if the URL is valid
+      window.open(url, '_blank'); // Open the URL in a new tab
+    }
+  });
+});
+    </script>
+    </body>
 </html>

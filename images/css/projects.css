@@ -1,0 +1,141 @@
+body{
+    background-color: black;
+}
+
+.content{
+    padding-top: 15%;
+}
+
+.title{
+    margin-top: 0%;
+    text-align: center;
+    color: #C0C0C0 ;
+    font-size: 44px;
+}
+
+.project-nav{
+    font-size: 20px;
+}
+
+.cards-container{
+    margin-top: 2%;
+    display: flex;
+    margin-left: 5%;
+    /* border: 1px solid white; */
+    height: 100vh;
+   flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-self: center;
+
+    width: 90%;
+    
+}
+
+.cards {
+    margin-top: 5%;
+    width: 500px;
+    display: flex;
+    border-radius: 15px;
+
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    background: rgb(238,206,185);
+    background: radial-gradient(circle, rgba(238,206,185,1) 52%, rgba(187,154,177,1) 81%);
+
+}
+
+ #two{
+    background: rgb(103,125,106);
+background: linear-gradient(13deg, rgba(103,125,106,1) 41%, rgba(226,226,182,1) 100%, rgba(255,255,255,0.4458158263305322) 100%);
+}
+
+#three{
+    background: rgb(255,236,158);
+    background: linear-gradient(13deg, rgba(255,236,158,1) 41%, rgba(255,125,41,1) 100%, rgba(255,255,255,0.4458158263305322) 100%);
+}
+
+#five{
+    background: rgb(255,115,0);
+    background: radial-gradient(circle, rgba(255,115,0,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+#six{
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 9%, rgba(73,90,110,1) 70%);
+}
+
+.c-1{
+    cursor: pointer;
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+    transition: 0.2s ease-in;
+}
+
+.c-1:hover{
+    width: 500px;
+    height: 320px;
+    
+}
+
+.c-2{
+    cursor: pointer;
+    border-radius: 15px;
+    width: 400px;
+    height: 250px;
+    transition: 0.2s ease-in;
+}
+
+.c-2:hover{
+    width: 500px;
+    height: 320px;
+    
+}
+
+
+@media (max-width : 468px ){
+    .logo{
+        display: none;
+    }
+
+    .title{
+        font-size: 28px;
+    }
+
+    .content{
+        padding-top: 40%;
+    }
+    .cards{
+        width: 300px;
+        height: 200px;
+    }
+
+    .c-1{
+        width: 250px;
+        height: 150px;
+    }
+    .c-1:hover{
+        width: 300px;
+        height: 200px;
+    }
+
+    .c-2{
+        width: 250px;
+        height: 150px;
+    }
+    .c-2:hover{
+        width: 300px;
+        height: 200px;
+    }
+
+    .c-3{
+        width: 250px;
+        height: 150px;
+    }
+    .c-3:hover{
+        width: 300px;
+        height: 200px;
+    }
+}
