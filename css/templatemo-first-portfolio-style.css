@@ -597,7 +597,7 @@ align-items: center;
 }
 
 .about-thumb {
-  align-items: center;
+  align-items: flex-start;
   padding-right: 0 !important;
   padding-left: 0 !important;
   margin: 0 !important;
@@ -610,8 +610,8 @@ align-items: center;
   overflow: hidden;
   overflow-x: hidden;
   max-width: 100%;
-  display: flex;
-  flex-direction: column;
+  display: block;
+  min-width: 0;
 }
 
 .about-thumb p {
@@ -647,6 +647,24 @@ align-items: center;
 
 .about{
   background-color: #ffffff46;
+  overflow: hidden;
+}
+
+.about .container {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  max-width: 100% !important;
+}
+
+.about .row {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.about .col-lg-6 {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  max-width: 100%;
 }
 
 
@@ -1327,5 +1345,50 @@ align-items: center;
     height: 300px;
   }
 
+  /* About Section Overflow Fixes */
+  .about .container {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .about .row {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+
+  .about .col-lg-6 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    max-width: 100%;
+  }
+
+  .about-thumb {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+    overflow-x: hidden;
+  }
+
+  .about-thumb p {
+    font-size: 13px;
+    padding: 0 !important;
+    margin: 0 0 0.8rem 0 !important;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
+
+  .about-thumb h3 {
+    font-size: 16px;
+    padding: 0 !important;
+    margin: 0 0 0.8rem 0 !important;
+    width: 100%;
+    max-width: 100%;
+    overflow: hidden;
+  }
 
 }
