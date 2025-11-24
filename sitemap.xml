@@ -34,7 +34,16 @@
   <loc>https://prathambhayana.com/projects.html</loc>
   <lastmod>2025-11-24T00:00:00+00:00</lastmod>
   <changefreq>bi-weekly</changefreq>
-  <priority>0.85</priority>
+  <priority>0.90</priority>
+  <mobile:mobile/>
+</url>
+
+<!-- 404 Error Page -->
+<url>
+  <loc>https://prathambhayana.com/404.html</loc>
+  <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  <changefreq>yearly</changefreq>
+  <priority>0.50</priority>
   <mobile:mobile/>
 </url>
 
@@ -70,26 +79,94 @@
   <priority>0.75</priority>
 </url>
 
-<!-- Featured Projects -->
+<!-- Featured Projects with Images -->
 <url>
-  <loc>https://prathambhayana.com/#writerscape</loc>
+  <loc>https://raizingsovereign.com/</loc>
   <lastmod>2025-11-24T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.70</priority>
+  <priority>0.85</priority>
+  <image:image>
+    <image:loc>https://res.cloudinary.com/dsbdcex1d/image/upload/v1763985271/Untitled-1-01_dtxbhd.png</image:loc>
+    <image:title>Raizing Sovereign - Full-Stack Web Application</image:title>
+  </image:image>
 </url>
 
 <url>
-  <loc>https://prathambhayana.com/#indix</loc>
+  <loc>https://pandawallet.io/</loc>
   <lastmod>2025-11-24T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.70</priority>
+  <priority>0.85</priority>
+  <image:image>
+    <image:loc>https://res.cloudinary.com/dsbdcex1d/image/upload/v1763985355/WhatsApp_Image_2025-11-21_at_3.59.10_PM_bqxgkv.jpg</image:loc>
+    <image:title>Panda Wallet - Digital Wallet Application</image:title>
+  </image:image>
 </url>
 
 <url>
-  <loc>https://prathambhayana.com/#magic-music</loc>
+  <loc>https://liv-mexico.com/</loc>
   <lastmod>2025-11-24T00:00:00+00:00</lastmod>
   <changefreq>monthly</changefreq>
-  <priority>0.70</priority>
+  <priority>0.85</priority>
+  <image:image>
+    <image:loc>https://res.cloudinary.com/dsbdcex1d/image/upload/v1763985484/Screenshot_2025-11-24_172700_ea4hfp.png</image:loc>
+    <image:title>Liv Mexico - Full-Stack Web Project</image:title>
+  </image:image>
+</url>
+
+<url>
+  <loc>https://scs-theta.vercel.app/</loc>
+  <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
+</url>
+
+<url>
+  <loc>https://indi-x.netlify.app/</loc>
+  <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
+</url>
+
+<url>
+  <loc>https://writerscapes.netlify.app/landing.html</loc>
+  <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
+</url>
+
+<url>
+  <loc>https://silver-unicorn-0614dd.netlify.app</loc>
+  <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
+</url>
+
+<url>
+  <loc>https://customeye.netlify.app/</loc>
+  <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
+</url>
+
+<url>
+  <loc>https://prathambhayanablog.netlify.app/</loc>
+  <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+
+<url>
+  <loc>https://ansl.netlify.app/</loc>
+  <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
+</url>
+
+<url>
+  <loc>https://www.scotfreo.com/</loc>
+  <lastmod>2025-11-24T00:00:00+00:00</lastmod>
+  <changefreq>monthly</changefreq>
+  <priority>0.75</priority>
 </url>
 
 </urlset>
