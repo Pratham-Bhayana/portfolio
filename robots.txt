@@ -20,8 +20,8 @@ User-agent: Bingbot
 Allow: /
 Crawl-delay: 1
 
-Sitemap: https://prathambhayana.com/sitemap.xml
-Sitemap: https://prathambhayana.com/sitemap-projects.xml
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
 
-# Cache rules
-Cache-Control: max-age=2592000
+Sitemap: https://prathambhayana.com/sitemap.xml
